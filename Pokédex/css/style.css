@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    height: 90vh;
+}
+
+.yellowBack {
+    grid-column: 1/5;
+    grid-row: 1;
+    background-color: yellow;
+}
